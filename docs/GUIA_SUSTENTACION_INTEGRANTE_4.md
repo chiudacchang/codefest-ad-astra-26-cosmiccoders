@@ -369,6 +369,17 @@ especializadas para PDF e idioma.
 Cada prueba prepara una entrada, ejecuta una función y compara el resultado con
 lo esperado mediante afirmaciones como `assertEqual`.
 
+Los archivos de prueba usan `unittest.TestCase`. Es una estructura proporcionada
+por la librería `unittest` para agrupar casos relacionados. No se usa orientación
+a objetos en los programas del proyecto; la clase aparece únicamente porque es
+la forma estándar en que esta librería organiza sus pruebas.
+
+### Funciones recibidas como parámetros
+
+`medir_funcion` recibe otra función y un argumento. Esto permite aplicar el mismo
+cronómetro a diferentes procesos. La función recibida no se ejecuta al enviarla;
+se ejecuta dentro del medidor mediante `funcion(argumento)`.
+
 ### Trazabilidad
 
 No es una instrucción específica de Python: es una práctica de ingeniería. Cada

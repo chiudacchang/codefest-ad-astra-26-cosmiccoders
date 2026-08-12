@@ -4,12 +4,12 @@ import time
 import tracemalloc
 
 
-def medir_funcion(funcion, *argumentos, **argumentos_con_nombre):
-    """Ejecuta una función y retorna resultado, tiempo y pico de memoria."""
+def medir_funcion(funcion, argumento):
+    """Ejecuta una función con un argumento y mide tiempo y memoria."""
     tracemalloc.start()
     inicio = time.perf_counter()
 
-    resultado = funcion(*argumentos, **argumentos_con_nombre)
+    resultado = funcion(argumento)
 
     fin = time.perf_counter()
     memoria_actual, memoria_maxima = tracemalloc.get_traced_memory()
