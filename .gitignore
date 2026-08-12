@@ -1,15 +1,29 @@
-# El corpus puede contener archivos grandes y no debe subirse al repositorio.
-data/raw/*
-!data/raw/.gitkeep
-
-# Los reportes se generan cada vez que se ejecuta el programa.
-results/*.json
-!results/.gitkeep
-
-# Archivos temporales de Python.
+# Python
 __pycache__/
 *.pyc
+*.pyo
 
-# Entornos virtuales.
+# Entorno virtual
 .venv/
 venv/
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+
+# Corpus original
+data/raw/
+
+# Datos intermedios pesados
+data/processed/
+data/embeddings/
+data/indexes/
+
+# Embeddings temporales
+*.npy
+*.npz
+
+# Secrets
+.env
