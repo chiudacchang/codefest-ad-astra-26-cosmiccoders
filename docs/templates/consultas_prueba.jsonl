@@ -1,0 +1,16 @@
+{"query_id":"test001","query":"¿Cuáles son los principales riesgos de la basura espacial para las operaciones en órbita baja terrestre?","idioma":"es","tipo":"general"}
+{"query_id":"test002","query":"¿Qué medidas de mitigación reducen la creación de nuevos desechos espaciales?","idioma":"es","tipo":"general"}
+{"query_id":"test003","query":"¿Cómo afecta la congestión orbital a la seguridad de los satélites?","idioma":"es","tipo":"general"}
+{"query_id":"test004","query":"¿Qué papel desempeñan los sistemas de vigilancia y seguimiento espacial?","idioma":"es","tipo":"especifica"}
+{"query_id":"test005","query":"¿Qué riesgos producen las colisiones entre satélites y etapas de cohetes?","idioma":"es","tipo":"especifica"}
+{"query_id":"test006","query":"Compare las estrategias de remoción activa de desechos y mitigación pasiva.","idioma":"es","tipo":"comparativa"}
+{"query_id":"test007","query":"¿Cómo han evolucionado las recomendaciones internacionales sobre sostenibilidad orbital?","idioma":"es","tipo":"tendencia"}
+{"query_id":"test008","query":"¿Qué tendencias se observan en el número de objetos artificiales en LEO?","idioma":"es","tipo":"tendencia"}
+{"query_id":"test009","query":"What are the main collision risks created by space debris in low Earth orbit?","idioma":"en","tipo":"general"}
+{"query_id":"test010","query":"How do space situational awareness systems support orbital safety?","idioma":"en","tipo":"especifica"}
+{"query_id":"test011","query":"Compare active debris removal with end-of-life disposal strategies.","idioma":"en","tipo":"comparativa"}
+{"query_id":"test012","query":"What trends are reported in the growth of objects in low Earth orbit?","idioma":"en","tipo":"tendencia"}
+{"query_id":"test013","query":"Quais são os principais riscos dos detritos espaciais na órbita baixa?","idioma":"pt","tipo":"general"}
+{"query_id":"test014","query":"Como o monitoramento de objetos espaciais ajuda a prevenir colisões?","idioma":"pt","tipo":"especifica"}
+{"query_id":"test015","query":"Compare a remoção ativa de detritos com as medidas de mitigação.","idioma":"pt","tipo":"comparativa"}
+{"query_id":"test016","query":"Quais tendências existem no crescimento da população de objetos em LEO?","idioma":"pt","tipo":"tendencia"}

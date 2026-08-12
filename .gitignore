@@ -20,6 +20,7 @@ data/raw/
 data/processed/
 data/embeddings/
 data/indexes/
+data/chunks/
 
 # Embeddings temporales
 *.npy
@@ -27,3 +28,9 @@ data/indexes/
 
 # Secrets
 .env
+
+# Reportes generados por las herramientas de validación y evaluación
+results/*.json
+results/*.jsonl
+results/*.csv
+!results/.gitkeep
