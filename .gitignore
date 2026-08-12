@@ -1,0 +1,15 @@
+# El corpus puede contener archivos grandes y no debe subirse al repositorio.
+data/raw/*
+!data/raw/.gitkeep
+
+# Los reportes se generan cada vez que se ejecuta el programa.
+results/*.json
+!results/.gitkeep
+
+# Archivos temporales de Python.
+__pycache__/
+*.pyc
+
+# Entornos virtuales.
+.venv/
+venv/

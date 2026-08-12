@@ -1,0 +1,2 @@
+pypdf==6.10.0
+langdetect==1.0.9
